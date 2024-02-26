@@ -1,0 +1,36 @@
+header {
+    background-color: #00050f;
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .navbar-brand {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+header .cart-count-header {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b91919;
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+header .right-section {
+    position: relative;
+}
