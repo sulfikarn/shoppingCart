@@ -1,0 +1,65 @@
+.btn-continer{
+    width: 125px;
+    height: 35px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #19a046;
+}
+
+.btn-wrapp{
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-continer button{
+  padding: 0 10px;
+  background-color: #19a046;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.count-text{
+  padding: 0px 5px;
+}
+
+.dish-name {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.dish-price {
+  font-size: 14px;
+}
+
+.dish-description {
+  color: #344755;
+  font-weight: 600;
+}
+
+@media (max-width: 520px) {
+  .dish-name {
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+
+  .dish-description {
+    font-size: 10px;
+  }
+
+  .dish-price {
+    font-size: 10px;
+  }
+
+  .dish-colories {
+    font-size: 10px;
+  }
+  .customization{
+    font-size: 10px;
+  }
+}
