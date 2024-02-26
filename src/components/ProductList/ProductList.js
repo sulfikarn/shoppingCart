@@ -81,7 +81,7 @@ function ProductList() {
                                 <div className='d-flex justify-content-end align-items-center'>
                                     <h6 className='dish-colories text-white pe-2'>{dishitems.dish_calories} Calories</h6>
                                     <div className='w-25'>
-                                        <img src={dishitems.dish_image} alt='food' className='img-fluid' style={{ objectFit: 'cover', height: '100%' }} />
+                                        <img src={dishitems.dish_image} alt='food' className='img-fluid' />
                                     </div>
                                 </div>
 
